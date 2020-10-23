@@ -9,9 +9,9 @@ use \PDOException;
 class Connect
 {
     private const HOST = "localhost";
-    private const USER = "yuri";
-    private const  PASSWD = "7q5eb6eb@#";
-    private const DBNAME = "meusprodutos";
+    private const USER = "USER";
+    private const  PASSWD = "PASSWD";
+    private const DBNAME = "DB";
 
     private const OPTION = [
         PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
